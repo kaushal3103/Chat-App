@@ -13,7 +13,7 @@ Chat-App is a simple MERN (MongoDB, Express.js, React.js, Node.js) stack chat ap
 git clone https://github.com/kaushal3103/Chat-App.git
 cd Chat-App
 
-### Frontend Installation
+### Clone the Repository
 cd frontend
 npm install
 npm run
@@ -22,7 +22,7 @@ npm run
 cd backend
 npm install
 nodemon start
-
+```
 ## Usage
 Start the frontend by navigating to the `frontend` directory and running npm run.
 Start the backend by navigating to the `backend` directory and running nodemon start.
