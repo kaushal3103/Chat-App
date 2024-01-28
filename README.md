@@ -40,6 +40,10 @@ CSS
 Real-time messaging
 User authentication
 Responsive design
+Retrieve Chat History
+Chat with Anyone
+Seamless Connection
+Database Stored in MongoDB
 
 ## Upcoming Features
 Authentication with JWT Token: The next update will introduce JWT token-based authentication for enhanced security.
