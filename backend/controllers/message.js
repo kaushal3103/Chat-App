@@ -1,8 +1,6 @@
 
 const Chat = require('../models/Chat');
 const User = require('../models/User');
-const {io} = require('../socket');
-
 
 const chat = async function(req,res){
 
