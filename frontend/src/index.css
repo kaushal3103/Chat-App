@@ -1,0 +1,321 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+body {
+    background:#f5f5f5;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.register-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    height:450px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding:20px 40px 20px 40px;
+}
+
+.regbtn {
+    background-color: #051650;
+   
+    color:white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 380px; 
+    cursor: pointer; 
+   
+    
+}
+
+input {
+    padding:10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 350px;
+}
+
+.reglogin{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.tandc{
+    font-size: 14px;
+    width: 350px;
+}
+
+.regform{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+    height: 180px;
+}
+
+.loginform {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    height: 130px;
+}
+
+.login-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    height: 400px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px 40px 20px 40px;
+}
+
+.loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+    display: none;
+}
+
+.loader.active {
+    display: block;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.chathome {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    min-height: 450px;
+    max-height: 800px;      
+    overflow-y: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px 0px 20px 0px;
+}
+
+.img {
+    height: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.currentusercard {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    width: 100%;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.friends{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    overflow: auto;
+    
+}
+
+.friendsuser{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e4e4e4e4;
+    padding: 20px;
+    
+    margin-bottom: 20px;
+  
+    
+}
+
+.chatbtn{
+    background-color: #051650;
+    
+        color: white;
+        padding: 10px 20px;
+        font-size: 14px;
+        border: none;
+        border-radius: 5px;
+        width: 150px;
+        cursor: pointer;
+        margin-right: 50px;
+}
+
+.usernp{
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    font-style:initial;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.logoutbtn {    
+        color:#051650;
+        padding: 10px 20px;
+        font-size: 14px;
+        border: none;
+        border-radius: 5px;
+        width: 100px;
+        cursor: pointer;
+}
+
+.chatbody {
+    display: flex;
+    flex-direction: column; 
+    background:white;
+    height: 550px;
+    width: 900px;
+    margin-bottom: 50px;  
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.chatpageuser {
+   
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: left;
+    align-items: center;
+    background-color: #f1f1f1;
+    height: 70px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.chatlist {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    height: 400px;
+    overflow-y: auto;
+    
+}
+
+.receiver{
+    display: flex;
+        align-items: center;
+        justify-content: left;
+        text-align: left;
+        align-self: flex-start;
+        background-color: #f5f5f5;
+        color: black;
+        height: 40px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        min-width: 40%;
+        max-width: 55%;
+        
+        border-radius: 5px;
+        margin-left: 10px;
+        height: auto;
+        padding: 5px 10px 5px 10px;
+        font-family: sans-serif;
+        line-height: 30px;
+        font-size: 15px;
+}
+
+.sender{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    align-self: flex-end;
+    background-color: #051650;
+    color:white;
+    height:40px;
+    margin-top: 5px;
+    min-width: 25%;
+    max-width: 35%;   
+    text-align: left;
+    border-radius: 5px;
+    margin-right: 10px;
+    height: auto;
+    padding: 5px 10px 5px 10px;
+    font-family: sans-serif;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.chatcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.inputsend {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 85%;
+}
+
+.senddiv{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sendbtn {
+    background-color: #051650;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    
+}
+
+.sendicon {
+    width: 80px;
+}
