@@ -46,8 +46,8 @@ Seamless Connection
 Database Stored in MongoDB
 
 ## Upcoming Features
-Authentication with JWT Token: The next update will introduce JWT token-based authentication for enhanced security.
-Improved Error Handling: Error handling will be enhanced with proper grouping and informative messages.
-Add to Friends: Users will be able to add others to their friends list for a more personalized experience.
-Profile Section Update: The profile section will be updated with additional information and customization options.
+Authentication with JWT Token
+Improved Error Handling
+Add to Friends Feature
+Profile Section Update
 
